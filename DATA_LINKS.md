@@ -8,6 +8,8 @@
 | **UNET checkpoint (10 % labels)** (`satmae_10pct.ckpt`) |https://drive.google.com/file/d/1Mqn62TXUHB_t9_jyKo65XTpNbjjlKMpx/view?usp=sharing   | `<TODO>` |
 | **SatMAE fine-tuned checkpoint (1 % labels)** (`satmae_1pct.ckpt`) |https://drive.google.com/file/d/1GcVzhdzVJbKqHiaoM9fsCnITIAYcO7qD/view?usp=sharing | `<TODO>` |
 | **UNET checkpoint (1 % labels)** (`satmae_1pct.ckpt`) | https://drive.google.com/file/d/1fXrzx5jhxJsjHrkYcuFyyFnaOyFSVudp/view?usp=sharing| `<TODO>` |
+| **SatMAE fine-tuned checkpoint (0.5 % labels)** (`satmae_1pct.ckpt`) |https://drive.google.com/file/d/1NP7CDfZGIPYvza-_tQtcXKNd8JQuByeW/view?usp=sharing | `<TODO>` |
+| **UNET checkpoint (0.5 % labels)** (`satmae_1pct.ckpt`) | https://drive.google.com/file/d/1Dbb8pDdDNTgzs3Tuk3nQSspkeWTKCVAb/view?usp=sharing| `<TODO>` |
 
 | **Sentinel-2 manifest for pre-training** (`s2_prefixes.txt`) | *(this repo)* | see git blob |
 
