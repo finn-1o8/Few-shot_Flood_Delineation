@@ -9,23 +9,15 @@ This repository contains **all notebooks, models, and data links** for my MSc th
 1. **Open Google Colab** → **File ▸ Open notebook ▸ GitHub** → paste this repo URL.
 2. Run the notebooks in order:
 
-| Notebook | 
-|---|---|
-| `STURMrecreated.ipynb` | 
-| `Large_Unlabeled_Pretraining.ipynb` | 
-| `Fine-Tuning_on_10_percent_labeled.ipynb` |
-| `SatMAE_vs_Unet_one_percent.ipynb` |
-| `SatMAE_vs_Unet_0_5_percent.ipynb` | 
-
 The notebooks are numbered to be run sequentially. It is recommended to open them in Google Colab for a seamless experience with pre-configured environments.
 
 | Notebook                                        | Purpose                                                                          | Key Outcome                               |
 | ----------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------- |
-| **1_STURM_Baseline_Replication.ipynb**          | Reproduces the supervised U-Net baseline on the full STURM-Flood dataset.        | Validates the experimental setup.         |
-| **2_Large_Unlabeled_Pretraining.ipynb**         | Curates the 11,997-scene unlabeled corpus and pre-trains the SatMAE encoder.     | Produces `mae9_epoch20.ckpt`.             |
-| **3_Finetuning_10_Percent.ipynb**               | Fine-tunes and compares SatMAE vs. U-Net on a 10% labeled data split.            | Shows U-Net's advantage with moderate data. |
-| **4_Finetuning_1_Percent.ipynb**                | Compares models on a 1% labeled data split (severe scarcity).                    | Demonstrates the performance inversion.     |
-| **5_Finetuning_0.5_Percent_FewShot.ipynb**      | Pushes models to the limit on a 0.5% split (12 images) in a true "few-shot" test. | Confirms SatMAE's profound resilience.      |
+| **STURMrecreated.ipynb**          | Reproduces the supervised U-Net baseline on the full STURM-Flood dataset.        | Validates the experimental setup.         |
+| **Large_Unlabeled_Pretraining.ipynb**         | Curates the 11,997-scene unlabeled corpus and pre-trains the SatMAE encoder.     | Produces `mae9_epoch20.ckpt`.             |
+| **Fine-Tuning_on_10_percent_labeled.ipynb**               | Fine-tunes and compares SatMAE vs. U-Net on a 10% labeled data split.            | Shows U-Net's advantage with moderate data. |
+| **SatMAE_vs_Unet_one_percent.ipynb**                | Compares models on a 1% labeled data split (severe scarcity).                    | Demonstrates the performance inversion.     |
+| **SatMAE_vs_Unet_0_5_percent.ipynb**      | Pushes models to the limit on a 0.5% split (12 images) in a true "few-shot" test. | Confirms SatMAE's profound resilience.      |
 
 **To run in Colab:**
 1.  Navigate to [Google Colab](https://colab.research.google.com/).
