@@ -1,4 +1,4 @@
-# MSc Flood Mapping Thesis  🌊🛰️
+#  Region-Aligned Self-Supervised Pre-Training for Few-Shot Flood Delineation. 🌊🛰️
 
 This repository contains **all notebooks, models, and data links** for my MSc thesis:
 
