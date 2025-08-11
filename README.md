@@ -9,13 +9,13 @@ This repository contains **all notebooks, models, and data links** for my MSc th
 1. **Open Google Colab** → **File ▸ Open notebook ▸ GitHub** → paste this repo URL.
 2. Run the notebooks in order:
 
-| Notebook | Purpose |
+| Notebook | 
 |---|---|
-| `STURMrecreated.ipynb` | Reproduce STURM-Flood baseline |
-| `Large_Unlabeled_Pretraining.ipynb` | Region-aligned SatMAE pre-training (streams S2) |
-| `Fine-Tuning_on_10_percent_labeled.ipynb` | 10% label experiment |
-| `SatMAE_vs_Unet_one_percent.ipynb` | 1% label experiment |
-| `SatMAE_vs_Unet_0_5_percent_.ipynb` | 0.5% label experiment |
+| `STURMrecreated.ipynb` | 
+| `Large_Unlabeled_Pretraining.ipynb` | 
+| `Fine-Tuning_on_10_percent_labeled.ipynb` |
+| `SatMAE_vs_Unet_one_percent.ipynb` |
+| `SatMAE_vs_Unet_0_5_percent.ipynb` | 
 
 The notebooks are numbered to be run sequentially. It is recommended to open them in Google Colab for a seamless experience with pre-configured environments.
 
