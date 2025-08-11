@@ -2,8 +2,6 @@
 
 This repository contains **all notebooks, models, and data links** for my MSc thesis:
 
-> *“Region-Aligned Self-Supervised Pre-Training for Few-Shot Flood Delineation.”*
-
 ## How to reproduce the results
 
 1. **Open Google Colab** → **File ▸ Open notebook ▸ GitHub** → paste this repo URL.
