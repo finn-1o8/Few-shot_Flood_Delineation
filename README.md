@@ -1,4 +1,4 @@
-# Label-Efficient Self-Supervised Pretraining for Few-Shot Flood Delineation from Sentinel-2 Optical Imagery 🌊🛰️"
+# Label-Efficient Self-Supervised Pretraining for Few-Shot Flood Delineation from Sentinel-2 Optical Imagery 🌊🛰️
 
 This repository contains the **notebooks, model weights, and data manifests** for my MSc thesis on label-efficient flood mapping from Sentinel-2 optical imagery. The central idea:  
 **Pretrain once on unlabeled, flood-prone Sentinel-2 regions → adapt with only a handful of labels.**
